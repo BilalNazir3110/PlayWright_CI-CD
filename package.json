@@ -1,0 +1,24 @@
+{
+  "name": "playwright_ci-cd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "yodo_cicd.spec.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BilalNazir3110/PlayWright_CI-CD.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/BilalNazir3110/PlayWright_CI-CD/issues"
+  },
+  "homepage": "https://github.com/BilalNazir3110/PlayWright_CI-CD#readme",
+  "dependencies": {
+    "@playwright/test": "^1.55.0"
+  }
+}
