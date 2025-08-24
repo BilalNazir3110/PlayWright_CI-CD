@@ -10,7 +10,7 @@ import { test, expect } from '@playwright/test'
         if (frame === page.mainFrame()) {
         const url = frame.url();
         console.log(`Navigated to: ${url}`)
-        const resp = await page.request.get(url)
+        const resp = await page.request.get(url)     //
         console.log(resp.status())
         expect(resp.status(), `Navigation failed for ${url}`).toBe(200)
         }
