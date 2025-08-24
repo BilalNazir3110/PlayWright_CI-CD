@@ -18,7 +18,7 @@
     "url": "https://github.com/BilalNazir3110/PlayWright_CI-CD/issues"
   },
   "homepage": "https://github.com/BilalNazir3110/PlayWright_CI-CD#readme",
-  "dependencies": {
+  "devDependencies": {
     "@playwright/test": "^1.55.0"
   }
 }
